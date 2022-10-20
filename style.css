@@ -1,11 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Oswald&display=swap');
 
 body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 15px;
+
     font-family: 'Oswald', sans-serif;
+    background-color: white;
+
+    width: 80%;
+    height: 50%;
+    max-width: 800px;
+    min-height: 600px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 40px;
 }
 
 .input-value {
@@ -23,6 +45,7 @@ body {
     min-width: 70%;
     gap: 0 12px;
 }
+
 .description {
-    width: 100px;
+    width: 150px;
 }
