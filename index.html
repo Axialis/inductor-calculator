@@ -10,34 +10,37 @@
 </head>
 
 <body>
-    <div class="block">
-        <span class="description">Diameter:</span>
-        <input type="text" id="minDiameter" value="1" class="input-value">
-        <input type="range" id="innerDiameter" step="0.1" class="slide">
-        <input type="text" id="maxDiameter" value="70" class="input-value">
-        <span class="description" id="currentDiameter"></span>
-    </div>
-    <div class="block">
-        <span class="description">Lenght:</span>
-        <input type="text" id="minLenght" value="10" class="input-value">
-        <input type="range" id="lenght" step="0.1" class="slide">
-        <input type="text" id="maxLenght" value="150" class="input-value">
-        <span class="description"  id="currentLenght"></span>
-    </div>
-    <div class="block">
-        <span class="description">Wire:</span>
-        <input type="text" id="minWireDiameter" value="0.5" class="input-value">
-        <input type="range" id="wireDiameter" step="0.1" class="slide">
-        <input type="text" id="maxWireDiameter" value="5" class="input-value">
-        <span class="description" id="currentWireDiameter"></span>
-    </div>
-    <div class="block">
-        <span class="description">Turns:</span>
-        <span class="description" id="turnsCount"></span>
-    </div>
-    <div class="block">
-        <span class="description">L:</span>
-        <span id="inductorValue"></span>
+    <div class="container">
+        Inductance calculator
+        <div class="block">
+            <span class="description">Diameter:</span>
+            <input type="text" id="minDiameter" value="1" class="input-value">
+            <input type="range" id="innerDiameter" step="0.1" class="slide">
+            <input type="text" id="maxDiameter" value="70" class="input-value">
+            <span class="description" id="currentDiameter"></span>
+        </div>
+        <div class="block">
+            <span class="description">Lenght:</span>
+            <input type="text" id="minLenght" value="10" class="input-value">
+            <input type="range" id="lenght" step="0.1" class="slide">
+            <input type="text" id="maxLenght" value="150" class="input-value">
+            <span class="description"  id="currentLenght"></span>
+        </div>
+        <div class="block">
+            <span class="description">Wire:</span>
+            <input type="text" id="minWireDiameter" value="0.5" class="input-value">
+            <input type="range" id="wireDiameter" step="0.1" class="slide">
+            <input type="text" id="maxWireDiameter" value="5" class="input-value">
+            <span class="description" id="currentWireDiameter"></span>
+        </div>
+        <div class="block">
+            <span class="description">Turns:</span>
+            <span class="description" id="turnsCount"></span>
+        </div>
+        <div class="block">
+            <span class="description">L:</span>
+            <span id="inductorValue"></span>
+        </div>
     </div>
 </body>
 <script src="./index.js"></script>
