@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Oswald&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.input-value {
+    font-family: 'Oswald', sans-serif;
+    width: 50px;
+}
+
+.slide {
+    width: 100%;
+}
+
+.block {
+    display: flex;
+    justify-content: start;
+    min-width: 70%;
+    gap: 0 12px;
+}
+.description {
+    width: 100px;
+}
